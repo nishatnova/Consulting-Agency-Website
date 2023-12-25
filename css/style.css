@@ -1,0 +1,508 @@
+.theme-background-bg{ background-color: #1B9CE3}
+.theme-background-bg-two{ background-color: #F0F9FD}
+.theme-background-bg-three{ background-color: #232323}
+.theme-text-bg{ color: #1B9CE3}
+
+
+.banner-btn:hover
+{
+    background-color: white !important;
+    color: #1B9CE3 !important;
+    border: 1px solid #1B9CE3 !important;
+
+}
+.banner-section-two
+{
+    height: 250px;
+    width: 100%;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-menu
+{
+    color: white;
+}
+.main-menu li a:hover
+{
+    color: #1B9CE3;
+}
+.search
+{
+    width: 45px;
+}
+.searchform
+{
+    height: 40px;
+    width: 230px;
+}
+
+.search-bar
+{
+
+    display: flex;
+    border-radius: 60px;
+    outline: 1px solid rgba(255, 255, 255, 0.05);
+    width: 240px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #a7acb1;
+
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.img_wrap
+{
+    position: relative;
+}
+.overlay
+{
+    position: absolute;
+    background: black;
+    opacity: 25%;
+    inset: 0;
+}
+
+
+.banner-caption {
+    top: 130px;
+    bottom: 50px;
+    right: 300px;
+    left: 205px;
+
+}
+
+.overlay-three
+{
+    position: absolute;
+    inset: 0;
+}
+
+
+
+
+
+.heading-color
+{
+    color: midnightblue;
+}
+
+@font-face {
+    font-family: 'NunitoSans_10pt-Regular';
+    src: url("../fonts/NunitoSans_10pt-Regular.ttf") ;
+}
+.frontext-family
+{
+    font-family: NunitoSans_10pt-Regular;
+}
+.fronttext-space
+{
+    line-height: 28px;
+}
+.fronttext-custome
+{
+    line-height: 28px;
+    text-align: justify;
+    color: #787878;
+
+}
+.fronttext-custome-two
+{
+    line-height: 30px;
+    color: #505050;
+
+}
+.front-size
+{
+    font-size: 33px;
+}
+
+.info-card-margin
+{
+    margin-top: 30px;
+}
+.info-card-margin-left
+{
+    margin-left: 5px;
+}
+
+.button
+{
+    height: 45px;
+    width: 140px;
+}
+
+.card-cur:hover
+{
+    background-color: #1B9CE3 !important;
+    color: white !important;
+}
+.card-cur:hover h4
+{
+    color: white !important;
+}
+.card-cur:hover i
+{
+    color: white !important;
+}
+.card-cur:hover p
+{
+    color: white !important;
+}
+.team-card
+{
+    border: 4px solid #D1EBF9;
+}
+
+.banner-card-margin
+{
+    margin-top: 30px;
+}
+.banner-card-margin-two
+{
+    margin-top: 55px;
+    margin-left: 125px;
+}
+.banner-button-margin
+{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.overlay-two
+{
+    position: absolute;
+    background: #0f6fbd;
+    opacity: 75%;
+    width: 100%;
+    inset: 0;
+
+}
+
+.overlay-four
+{
+    position: absolute;
+    background: #1B9CE3;
+    opacity: 85%;
+    width: 100%;
+    inset: 0;
+
+}
+
+.image-size
+{
+    height: 185px;
+    width: 100%;
+}
+.image-size-two
+{
+    height: 155px;
+    width: 100%;
+}
+.image-size-three
+{
+    height: 600px;
+    width: 100%;
+}
+
+.neg-card
+{
+    overflow-x: hidden;
+    margin-top: -102px;
+}
+.neg-card-row
+{
+    margin-right: 60px;
+    margin-left: 70px;
+}
+
+.neg-card-line
+{
+    border-bottom: 2px solid #1B9CE3;
+
+}
+
+.number
+{
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    display: block;
+    position: relative;
+}
+
+
+.number:after
+{
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 35px;
+    height: 1px;
+    background: #1b9ce3;
+
+}
+
+.button-bar
+{
+    height: 60px;
+    width: 220px;
+
+}
+.button-text
+{
+    font-size: 18px;
+}
+
+
+
+.img_card
+{
+    width: 380px;
+    height: 300px;
+}
+
+.img_card_size
+{
+    height: 100%;
+    width: 500px;
+
+}
+
+
+.img_card_layer
+{
+    background-color: #1B9CE3;
+
+}
+.img_card_title_margin
+{
+    margin-top: 80px;
+}
+.title_line_space
+{
+    line-height: 50px;
+}
+
+.arrow_align
+{
+
+    margin-left: 330px;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+
+}
+.arrow-cur:hover
+{
+    background-color: #1B9CE3;
+
+}
+.arrow-cur:hover i
+{
+    color: white !important;
+}
+
+.img-show-body
+{
+    display: block;
+}
+.img-layer-body
+{
+    display: none;
+}
+.img-animate:hover .img-layer-body
+{
+    display: block;
+
+}
+.img-animate:hover .img-show-body
+{
+    display: none;
+}
+
+
+.req-form-margin
+{
+    margin-top: 90px;
+}
+.form-group
+{
+    margin-bottom: 2rem;
+}
+
+.form-control
+{
+    border: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    padding-left: 0;
+
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.icon
+{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.form-margin
+{
+    margin-right: 70px;
+}
+
+.blog-card
+{
+    width: 368px;
+}
+.blog-img
+{
+    height: 273px;
+}
+.blog-title:hover
+{
+    color: #1B9CE3 !important;
+}
+.read-btn
+{
+    height: 40px;
+    width: 120px;
+}
+
+
+.blog-fot
+{
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+.quote-card
+{
+    position: static;
+    border: 3px solid #D1EBF9;
+    padding: 3px;
+}
+
+
+.quote-img-size
+{
+    height: 90px !important;
+    width: 90px !important;
+
+}
+.quote-text
+{
+    margin-left: 3px !important;
+}
+
+.fot-img
+{
+    height: 80px;
+    width: 80px;
+}
+.fot-card
+{
+    width: 290px;
+}
+.fot-color
+{
+    color: #848383;
+}
+.fot-color-two
+{
+    color: #a1a0a0 !important;
+}
+
+
+.mailform {
+    height: 50px;
+    width: 230px;
+}
+
+.mail-btn
+{
+    height: 50px;
+    width: 240px;
+}
+
+.mail-bar
+{
+
+    display: flex;
+    border-radius: 0;
+    outline: 1px solid rgba(255, 255, 255, 0.05);
+    width: 240px;
+    background-color: #3b3b3b;
+}
+
+.mail-bar input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.icon-css
+{
+
+    position: relative;
+    float: left;
+    height: 35px;
+    width: 35px;
+    background-color: #3b3b3b;
+    border: 1px solid #80bedb;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.icon-css i{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.icon-css:hover
+{
+    background-color: white;
+    color: black;
+}
+.icon-css:hover i
+{
+    color: black !important;
+}
+
+
+
+
+
